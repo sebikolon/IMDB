@@ -1,5 +1,7 @@
 # IMDB
 Overview over the top 50 actors and actresses of the [Image Movie Database](http://www.imdb.com/list/ls053501318/), scraped with Python.
+![IMDB Logo](IMDB/img/IMDb_logo_big.png )")
+
 
 **This  software provides the following functionality:**
 1. List of all available actors and actresses
@@ -10,11 +12,11 @@ Overview over the top 50 actors and actresses of the [Image Movie Database](http
 6. Average rating of their movies (overall and each year)
 7. Top 5 movies, their respective years and genre
 
-# Dependencies#
+# Dependencies
 * PyCharm Community Edition for developing purposes
 * SQLiteBrowser (http://sqlitebrowser.org/) to view the database file which is generated from the software
 
-# Built With #
+# Built With
 * BeautifulSoup4 4.4.1 (for storing scraped web pages)
 * lxml 3.6 (for parsing DOM elements)
 * sqlite3 (for establishing a database connection)
@@ -41,7 +43,7 @@ python.exe -m pip install wheel
 python.exe -m pip install lxml-3.6.0-cp35-cp35m-win32.whl
 ```
 
-# How to use (Get started):#
+# How to use (Get started):
 The software creates a database file on startup. This file contains all the scraped data and is stored in the root directory.
 
 When a database file already exists, the GUI opens and displays all actors instantly.
