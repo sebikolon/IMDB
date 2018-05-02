@@ -1,6 +1,8 @@
 # IMDB
-Overview over the top 50 actors and actresses of the [Image Movie Database](http://www.imdb.com/list/ls053501318/), scraped with Python.
-![IMDB Logo](IMDB/img/IMDb_logo_big.png )")
+![IMDB Logo](https://raw.githubusercontent.com/sebikolon/IMDB/master/img/IMDb_logo_big.png)
+
+Overview over the top 50 actors and actresses of the [Image Movie Database](http://www.imdb.com/list/ls053501318/), scraped with Python and BeautifulSoup4.
+
 
 
 **This  software provides the following functionality:**
